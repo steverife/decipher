@@ -22,7 +22,7 @@ code/decipher.py -c <corpus_path> -e <encrypted_text_path> -d <decryp
 ted_text_path> -u 
 
 ## Other code
-./code/download_test_data.py
+<em>./code/download_test_data.py</em>
 Downloads a corpus of English texts in the public domain.  
 
 It also used to encrypt test data. (A list of Yogi Berra quotes data/tests/test_quotes.txt )
