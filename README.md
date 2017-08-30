@@ -1,10 +1,10 @@
-Decipher
+# Decipher
 
 decipher.py decrypts text which has been encrypted using a simple substitution cipher.
 It uses a corpus which is a text file configurable by the user.  
 
 
-How to use:
+## How to use:
 
 The first run using a corpus
 code/decipher.py -c <corpus_path> -e <encrypted_text_path> -d <decrypted_text_path>
@@ -21,7 +21,7 @@ Use the -u flag on second or subsequent runs assuming you are using the same cor
 code/decipher.py -c <corpus_path> -e <encrypted_text_path> -d <decryp
 ted_text_path> -u 
 
-Other code
+## Other code
 ./code/download_test_data.py
 Downloads a corpus of English texts in the public domain.  
 
@@ -29,8 +29,8 @@ It also used to encrypt test data. (A list of Yogi Berra quotes data/tests/test_
 
 ./code/tests.py  
 
-“The OANC is a community resource that is freely available for download and use for research and development, including commercial development.”
-http://www.anc.org/data/oanc/download/
+
+
 
 
 
