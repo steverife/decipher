@@ -23,8 +23,7 @@ The first run without the -u flag will build a cache of the corpus so on subsequ
 Use the -u flag on second or subsequent runs assuming you are using the same corpus.
 
 ```
-code/decipher.py -c <corpus_path> -e <encrypted_text_path> -d <decryp
-ted_text_path> -u 
+code/decipher.py -c <corpus_path> -e <encrypted_text_path> -d <decrypted_text_path> -u 
 ```
 
 ## Other code
